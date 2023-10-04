@@ -11,7 +11,7 @@ price = price * children
 price = adults_meal * tax
 price = price * adults
 subtotal = childs_meal * children + adults_meal * adults
-price = subtotal + tax
+price = subtotal * tax
 
 
 print(f'Subtotal: ${subtotal}')
@@ -22,4 +22,4 @@ print('\n')
 
 payment_amount = float(input('What is the payment amount? '))
 change = payment_amount - price
-print(f'Change: ${change}')
+print(f'Change: ${change:.2f}')

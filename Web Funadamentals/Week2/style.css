@@ -1,0 +1,45 @@
+* {
+    border: 1px solid;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-size: 1.2em;
+}
+
+li {
+    background-color: red;
+    display: inline-block;
+    width: 100px;
+    font-size: 1.2em;
+}
+
+a:link, a:visited {
+    color: salmon;
+}
+
+a:hover {
+    color: purple;
+    text-decoration: none;
+}
+
+.banner {
+    width: 100%;
+    max-width: 960px;
+    object-fit: cover;
+}
+
+.active {
+    color: white;
+}
+
+.green {
+    background-color: green;
+}
+
+.width50 {
+    width: 50;
+}
