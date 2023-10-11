@@ -17,7 +17,8 @@ li {
     font-size: 1.2em;
 }
 
-a:link, a:visited {
+a:link,
+a:visited {
     color: salmon;
 }
 
@@ -38,6 +39,7 @@ a:hover {
 
 .green {
     background-color: green;
+    color: yellow;
 }
 
 .width50 {
