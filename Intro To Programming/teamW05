@@ -24,10 +24,12 @@ elif last_digit < 3:
 else:
     sign = ''
 
+if grade >= 93:
+    sign = ''
 
 if letter == 'F':
     sign = ''
-    
+
 
 print(f'Your letter grade is: {letter}{sign}')
 
